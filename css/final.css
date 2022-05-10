@@ -10,7 +10,7 @@
     font-family: 'Big Shoulders Inline Text', cursive;
 }
 body {
-    margin: 0.5;
+    margin: 0.5rem;
     }
 header {
     background-color:var(--neutral-grey);
@@ -66,10 +66,9 @@ a:link, a:visited {
     width: min(95%, 75rem);
 }
 .flex-container {
-    @media (min-width: 56.25em){
+    @media (min-width: 56.25em) {
       display: flex;  
     }
-  }
 .container-lg > * {
     grid-column: span 100%;
     background-color: var(--primary-color);
