@@ -88,7 +88,6 @@ a:link, a:visited {
     color: var(--second-color);
     display: flex;
     justify-content:center;
-    flex: wrap;
     margin: 0 auto;
 }
 .footer-heading {
