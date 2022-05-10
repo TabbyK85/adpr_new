@@ -66,9 +66,10 @@ a:link, a:visited {
     width: min(95%, 75rem);
 }
 .flex-container {
-    @media (min-width: 56.25em) {
+    @media (min-width: 56.25em){
       display: flex;  
     }
+  }
 .container-lg > * {
     grid-column: span 100%;
     background-color: var(--primary-color);
@@ -129,7 +130,7 @@ a:link, a:visited {
     width: 100%;
 }
 .spacer {
-    padding: 4rem 0 4rem 4rem;
+    padding: 4rem 0 4rem 0;
 }
   
 /****** Navigation Using Flexbox ******/
