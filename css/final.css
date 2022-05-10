@@ -68,8 +68,8 @@ a:link, a:visited {
 .flex-container {
     @media (min-width: 56.25em){
       display: flex;  
-    }
-  }
+}
+}
 .container-lg > * {
     grid-column: span 100%;
     background-color: var(--primary-color);
